@@ -1,0 +1,101 @@
+*{
+
+    padding:0px ;
+    margin: 0px;
+}
+
+
+body
+ 
+
+ {
+        font-family: "Poetsen One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      
+      
+  background-color: darkslategrey;
+}
+
+
+
+.header{
+
+
+    display: flex;
+
+    padding: 15px;
+    margin: 2px;
+    border-bottom: white 2px solid;
+    background-color: black;
+    color: white;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+}
+
+.name{
+
+    padding: 15px;
+    margin: 2px;
+    display: flex;
+   
+    color: white;
+  
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    
+}
+
+.images{
+
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;    
+      gap: 30px;
+      flex-basis: 100%;
+      margin-top: 30px;
+   
+}
+
+img{
+    
+    width: 25%;
+    height:40%px;
+    border:solid black 5px;
+    
+    
+}
+
+
+.description{
+
+  
+    margin: 2px;
+    padding: 15px;
+    color: white;
+    
+    
+}
+
+
+.footer{
+
+    padding: 15px;
+    margin: 2px;
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+}
+
+p{
+
+    gap: 20px;
+}
+
+
+img:hover{
+
+    cursor: grab;
+    
+}
+
